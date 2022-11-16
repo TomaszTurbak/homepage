@@ -1,0 +1,22 @@
+     .ciekawyElement {
+         color: #ff0030;
+     }
+
+     .pudelko {
+         background-color: rgb(161, 194, 233);
+         color: rgb(17, 1, 1);
+     }
+
+     .naglowek {
+         background-color: rgb(238, 235, 63);
+         color: rgb(23, 35, 141)
+     }
+
+     .podnaglowek {
+         background-color: beige;
+         color: black
+     }
+
+     .sectionTextShadow {
+        text-shadow: 2px 2px #ff0030;
+     }
