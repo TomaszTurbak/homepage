@@ -20,3 +20,13 @@
      .sectionTextShadow {
         text-shadow: 1px 1px #ff0030;
      }
+
+     .body {
+        color: black;
+        background-color: #ccc;
+     }
+
+     .dark {
+        color: #888;
+        background: #888;
+    }
