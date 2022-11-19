@@ -1,8 +1,11 @@
-console.log("Cześć! To moja pierwsza strona, więc prosze wybaczyć brak fajerwerków... ale uczę się i rozwijam w temacie FronEndu, więc będzie coraz lepiej :)");
+console.log("Witam serdecznie życząc miłego dnia!")
 
-let przycisk = document.querySelector(".przycisk");
-let naglowek = document.querySelector(".naglowek");
+let button = document.querySelector(".button");
+let body = document.querySelector(".body");
+let themeName = document.querySelector(".themeName");
 
-przycisk.addEventListener("click", () => {
-    naglowek.remove();
+
+button.addEventListener("click", () => {
+    body.classList.toggle("dark");
+    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny"
 });
