@@ -1,32 +1,54 @@
-     .ciekawyElement {
-         color: #ff0030;
-     }
+html {
+    box-sizing: border-box;
+}
 
-     .pudelko {
-         background-color: rgb(161, 194, 233);
-         color: rgb(17, 1, 1);
-     }
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
 
-     .naglowek {
-         background-color: rgb(238, 235, 63);
-         color: rgb(23, 35, 141)
-     }
+.ciekawyElement {
+    color: #ff0030;
+}
 
-     .podnaglowek {
-         background-color: beige;
-         color: black
-     }
+.section {
+    text-align: center;
+    width="200"
+    height="200"
+}
 
-     .sectionTextShadow {
-        text-shadow: 1px 1px #ff0030;
-     }
+.pudelko {
+    background-color: rgb(161, 194, 233);
+    color: rgb(17, 1, 1);
+}
 
-     .body {
-        color: black;
-        background-color: #ccc;
-     }
+.header {
+    background-color: #ccc;
+    color: rgb(23, 35, 141);
+    text-align: center;
+}
 
-     .dark {
-        color: #888;
-        background: #888;
-    }
+.podnaglowek {
+    background-color: beige;
+    color: black
+}
+
+.sectionTextShadow {
+    text-shadow: 1px 1px #ff0030;
+}
+
+.body {
+    color: black;
+    background-color: #ccc;
+    max-width: 800px;
+    padding: 20px 20px;
+    margin: 60px auto;
+    overflow-x: auto;
+    font-family: "lato", "sans-serif";
+}
+
+.dark {
+    color: #fff;
+    background-color: #222;
+}
