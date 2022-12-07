@@ -5,7 +5,8 @@
 ## Description
 
 This is my 1st project created in the process of becoming the Frontend Developer.
-## Konwencje do testowania:
+
+## Conventions and technologies used in the project:
 
 - HTML
   - BEM
