@@ -2,6 +2,9 @@
 
 ## GitHub Pages: https://tomaszturbak.github.io/homepage/
 
+## Description
+
+This is my 1st project created in the process of becoming the Frontend Developer.
 ## Konwencje do testowania:
 
 - HTML
