@@ -22,3 +22,6 @@ This is my 1st project created in the process of becoming the Frontend Developer
   - object-fit
   - object-position
   - calc
+- JavaScript
+  - document.querySelector
+  - addEventListener
