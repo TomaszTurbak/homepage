@@ -19,3 +19,6 @@
   - object-fit
   - object-position
   - calc
+- JavaScript
+  - document.querySelector
+  - addEventListener
