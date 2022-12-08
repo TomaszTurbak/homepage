@@ -1,11 +1,22 @@
-console.log("Witam serdecznie życząc miłego dnia!")
+{
+    const welcome = () => {
+        console.log("Witam serdecznie życząc miłego dnia!")
+    }
 
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+    const toggleBackground = () => {
+        const body = document.documentElement;
+        const themeName = document.querySelector(".themeName");
 
+        body.classList.toggle("body--dark");
+        themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny"
+    };
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny"
-});
+    const init = () => {
+        const button = document.querySelector(".button");
+        button.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+};

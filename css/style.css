@@ -46,7 +46,7 @@ html {
     font-family: "lato", "sans-serif";
 }
 
-.dark {
+.body--dark {
     color: #fff;
     background-color: #222;
 }
