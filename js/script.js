@@ -7,8 +7,8 @@
         const body = document.documentElement;
         const themeName = document.querySelector(".themeName");
 
-        body.classList.toggle("body--dark");
-        themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny"
+        body.classList.toggle("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny"
     };
 
     const init = () => {
