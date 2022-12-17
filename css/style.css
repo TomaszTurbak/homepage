@@ -8,6 +8,47 @@ html {
     box-sizing: inherit;
 }
 
+
+.navigation {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation__item {
+    margin: 10px;
+}
+
+.navigation__subItem {
+    margin: 10px;
+    text-indent: 1cm;
+}
+
+.navigation__link {
+    text-decoration: none;
+}
+
+.navigation__link--kontakt {
+    color: crimson;
+    text-decoration: none;
+}
+
+
+.navigation--dark {
+    padding: 10px;
+    margin: 10px;
+    background: #222;
+}
+
+.navigation--dark .navigation__link {
+    color: white;
+}
+
 .ciekawyElement {
     color: #ff0030;
 }
