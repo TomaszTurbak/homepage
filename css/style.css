@@ -8,7 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-
 .navigation {
     padding: 10px;
     margin: 10px;
@@ -38,7 +37,6 @@ html {
     text-decoration: none;
 }
 
-
 .navigation--dark {
     padding: 10px;
     margin: 10px;
@@ -49,14 +47,8 @@ html {
     color: white;
 }
 
-.ciekawyElement {
+.span {
     color: #ff0030;
-}
-
-
-.pudelko {
-    background-color: rgb(161, 194, 233);
-    color: rgb(17, 1, 1);
 }
 
 .header {
@@ -65,9 +57,16 @@ html {
     text-align: center;
 }
 
-.podnaglowek {
-    background-color: beige;
-    color: black
+.primaryHeader {
+    color: blue
+}
+
+.secondaryHeader {
+    color: green;
+}
+
+.tertiaryHeader {
+    color: rgb(104, 182, 146);
 }
 
 .sectionTextShadow {
@@ -89,7 +88,7 @@ html {
     background-color: #222;
 }
 
-.section {
+.header__element {
     display: flex;
     flex-direction: column;
     align-items: center;
