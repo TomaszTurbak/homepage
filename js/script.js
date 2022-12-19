@@ -4,7 +4,7 @@
     }
 
     const toggleBackground = () => {
-        const body = document.documentElement;
+        const body = document.querySelector(".body");
         const themeName = document.querySelector(".themeName");
 
         body.classList.toggle("dark");
