@@ -10,7 +10,7 @@ html {
 
 .body {
     color: black;
-    background-color: yellow;
+    background-color: rgb(199, 230, 250);
     max-width: 800px;
     padding: 20px 20px;
     margin: 60px auto;
@@ -21,6 +21,10 @@ html {
 .dark {
     color: #fff;
     background-color: #222;
+}
+
+.highlight {
+    color: crimson;
 }
 
 .navigation {
@@ -45,29 +49,30 @@ html {
 
 .navigation__link {
     text-decoration: none;
+    color: teal;
 }
 
 .navigation__link--kontakt {
-    color: crimson;
+    color: lightcoral;
+    font-weight: 700;
+    border-style: 1px solid black;
     text-decoration: none;
 }
 
 .navigation--dark {
     padding: 10px;
     margin: 10px;
-    background: #222;
 }
 
-.navigation--dark .navigation__link {
+/* .navigation--dark .navigation__link {
     color: white;
-}
+} */
 
 .span {
     color: #ff0030;
 }
 
 .header {
-    background-color: #ccc;
     color: rgb(23, 35, 141);
     text-align: center;
 }
@@ -80,13 +85,18 @@ html {
     color: green;
 }
 
+.themeName {
+    color: crimson;
+    font-weight: 700;
+}
+
 .tertiaryHeader {
     color: rgb(104, 182, 146);
 }
 
-.sectionTextShadow {
+/* .sectionTextShadow {
     text-shadow: 1px 1px #ff0030;
-}
+} */
 
 .header__element {
     display: flex;
