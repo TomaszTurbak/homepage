@@ -85,6 +85,10 @@ html {
     color: green;
 }
 
+.secondaryHeaderDark {
+    color: yellowgreen;
+}
+
 .themeName {
     color: crimson;
     font-weight: 700;

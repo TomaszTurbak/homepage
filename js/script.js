@@ -6,8 +6,12 @@
     const toggleBackground = () => {
         const body = document.querySelector(".body");
         const themeName = document.querySelector(".themeName");
+        const headerElements = document.querySelectorAll(".secondaryHeader");
 
         body.classList.toggle("dark");
+        headerElements.forEach(header => {
+            header.classList.toggle("secondaryHeaderDark");
+        })
         themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny"
     };
 
