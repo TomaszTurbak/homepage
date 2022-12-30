@@ -1,0 +1,13 @@
+.dark {
+    color: #fff;
+    background-color: #222;
+}
+
+.secondaryHeaderDark {
+    color: yellowgreen;
+}
+
+.navigation--dark {
+    padding: 10px;
+    margin: 10px;
+}

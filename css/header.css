@@ -1,0 +1,23 @@
+.header {
+    color: rgb(23, 35, 141);
+    text-align: center;
+}
+
+.primaryHeader {
+    color: blue
+}
+
+.secondaryHeader {
+    color: green;
+}
+
+.tertiaryHeader {
+    color: rgb(104, 182, 146);
+}
+
+.header__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

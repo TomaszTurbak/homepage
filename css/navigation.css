@@ -1,0 +1,31 @@
+.navigation {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation__item {
+    margin: 10px;
+}
+
+.navigation__subItem {
+    margin: 10px;
+    text-indent: 1cm;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: teal;
+}
+
+.navigation__link--kontakt {
+    color: lightcoral;
+    font-weight: 700;
+    border-style: 1px solid black;
+    text-decoration: none;
+}
